@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.body {
+  display: flex;
+  flex-direction: row; }
+  .body .main {
+    display: inline-block;
+    width: 50%;
+    min-width: 760px;
+    height: 100vh; }
+    .body .main .banner {
+      width: 220px;
+      height: auto; }
+      .body .main .banner .banner__logo {
+        display: inline-block; }
+        .body .main .banner .banner__logo .banner__icon {
+          width: 80px;
+          height: auto; }
+      .body .main .banner .banner__text {
+        display: inline-block;
+        position: relative;
+        bottom: 12px;
+        right: 10px; }
+        .body .main .banner .banner__text .company-name {
+          font-size: 20px; }
+        .body .main .banner .banner__text .company-second-name {
+          font-size: 10px;
+          color: #7d7e7e;
+          letter-spacing: 4px; }
+    .body .main .main__banner {
+      margin: 50px auto 80px 80px; }
+    .body .main .header {
+      margin-left: 100px;
+      width: auto; }
+      .body .main .header .title {
+        font-size: 50px;
+        font-weight: 400;
+        color: #404040; }
+        .body .main .header .title .security {
+          color: #9954ff; }
+      .body .main .header .subtitle {
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        color: #404040; }
+    .body .main .main__auth {
+      margin-left: 100px;
+      margin-top: 70px; }
+    .body .main .auth {
+      width: 600px; }
+      .body .main .auth .auth__label-float {
+        position: relative; }
+      .body .main .auth .auth__label {
+        position: absolute;
+        top: 5px;
+        left: 30px;
+        color: #9a9a9a; }
+      .body .main .auth .auth__input {
+        display: block;
+        width: 570px;
+        height: 70px;
+        font-size: 20px;
+        padding: 10px 0 0 30px;
+        border: 1px solid #e1e1e1;
+        border-radius: 5px;
+        margin-bottom: 25px; }
+      .body .main .auth .auth__checkbox {
+        margin-top: 30px; }
+      .body .main .auth .auth__checkbox-text {
+        margin-top: 30px;
+        color: #4d4d4d; }
+      .body .main .auth .auth__link {
+        margin-top: 30px;
+        float: right; }
+      .body .main .auth a, .body .main .auth a:hover, .body .main .auth a:visited, .body .main .auth a:focus, .body .main .auth a:active {
+        text-decoration: none;
+        color: #4d4d4d; }
+      .body .main .auth .button {
+        display: block;
+        width: 200px;
+        height: 50px;
+        font-size: 22px;
+        color: white;
+        border: 0; }
+      .body .main .auth .auth__button {
+        margin-top: 60px;
+        background-color: #9954ff; }
+  .body .photo {
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+    display: inline-block;
+    position: relative; }
+    .body .photo .photo__img {
+      width: auto;
+      height: 100vh; }
+    .body .photo .photo__overlay {
+      background-color: rgba(83, 6, 170, 0.5);
+      width: 100%;
+      height: 100vh;
+      top: 0;
+      position: absolute; }
